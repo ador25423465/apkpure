@@ -1,0 +1,26 @@
+[
+  {
+    "id": "fuck-apk",
+    "name": "fuck apk",
+    "company": "AFTVnews.com",
+    "rating": "9.09",
+    "icon": "https://picsum.photos/id/1025/120/120",
+    "downloadUrl": "#"
+  },
+  {
+    "id": "aftnews",
+    "name": "Downloader by AFTVnews",
+    "company": "AFTVnews.com",
+    "rating": "9.5",
+    "icon": "https://picsum.photos/id/1025/120/120",
+    "downloadUrl": "#"
+  },
+  {
+    "id": "vda",
+    "name": "Downloader by loti",
+    "company": "AFTVnews.com",
+    "rating": "9.5",
+    "icon": "https://picsum.photos/id/1025/120/120",
+    "downloadUrl": "#"
+  }
+]
