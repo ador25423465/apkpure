@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APKPure Clone - Download APK Free Online</title>
+
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome CDN for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Google Fonts (Inter) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- DESKTOP NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-desktop">
+        <div class="container-fluid px-lg-5">
+            <a class="navbar-brand-custom" href="#">
+                <i class="fa-solid fa-play text-success"></i>
+                <span>APKPure</span>
+            </a>
+
+            <div class="collapse navbar-collapse show" id="navbarContent">
+                <ul class="navbar-menu navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="">Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="#">Apps</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-link-custom dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown">
+                            Articles
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-link-custom dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown">
+                            Products
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="d-flex align-items-center">
+                    <button class="search-btn-desktop" title="Search Apps">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MOBILE NAVBAR (Solid Green Top Header for Mobile View) -->
+    <nav class="navbar-mobile">
+        <div class="navbar-mobile-content">
+            <button class="mobile-icon-btn" aria-label="Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <a class="mobile-brand" href="#">
+                <i class="fa-solid fa-play"></i>
+                <span>APKPure</span>
+            </a>
+            <button class="mobile-icon-btn" aria-label="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main class="container-fluid px-lg-5 mt-3 main-container">
+
+        <!-- =========================================================
+             MOBILE VIEW CONTENT (Shown strictly on screen < 768px)
+        ========================================================= -->
+        <div class="mobile-only-content">
+
+            <!-- SECTION 1: Today's Latest Update Apps -->
+            <div class="section-card">
+                <div class="section-header mb-2">
+                    <span class="section-title">Today's Latest Update Apps</span>
+                </div>
+
+                <div class="mobile-list-item">
+                    <div class="mobile-app-left">
+                        <img src="https://picsum.photos/id/1062/120/120" class="mobile-app-icon" alt="Voicemod">
+                        <div class="mobile-app-details">
+                            <span class="mobile-app-name">Voicemod</span>
+                            <span class="mobile-app-sub">1.24.1</span>
+                            <span class="mobile-app-sub">Update Date: Oct 3, 2026</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-download-mobile">Download</a>
+                </div>
+
+                <div class="mobile-list-item">
+                    <div class="mobile-app-left">
+                        <img src="https://picsum.photos/id/250/120/120" class="mobile-app-icon" alt="Retro">
+                        <div class="mobile-app-details">
+                            <span class="mobile-app-name">Retro — Photos with Friends</span>
+                            <span class="mobile-app-sub">2026.10.1142</span>
+                            <span class="mobile-app-sub">Update Date: Oct 3, 2026</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-download-mobile">Download</a>
+                </div>
+
+                <div class="mobile-list-item">
+                    <div class="mobile-app-left">
+                        <img src="https://picsum.photos/id/1058/120/120" class="mobile-app-icon" alt="Blackboard">
+                        <div class="mobile-app-details">
+                            <span class="mobile-app-name">Blackboard</span>
+                            <span class="mobile-app-sub">11.7.1</span>
+                            <span class="mobile-app-sub">Update Date: Oct 3, 2026</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-download-mobile">Download</a>
+                </div>
+            </div>
+
+            <!-- SECTION 2: Tools Apps -->
+            <div class="section-card">
+                <div class="section-header mb-2">
+                    <a href="category.html" class="section-title">
+                        Tools Apps <i class="fa-solid fa-chevron-right fs-6"></i>
+                    </a>
+                </div>
+
+                <div class="mobile-list-item">
+                    <div class="mobile-app-left">
+                        <img src="https://picsum.photos/id/1074/120/120" class="mobile-app-icon" alt="Shizuku">
+                        <div class="mobile-app-details">
+                            <span class="mobile-app-name">Shizuku</span>
+                            <span class="mobile-app-sub">Xingchen & Rikka</span>
+                            <span class="app-rating"><i class="fa-solid fa-star"></i> 9.7</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-download-mobile">Download</a>
+                </div>
+
+                <div class="mobile-list-item">
+                    <div class="mobile-app-left">
+                        <img src="https://picsum.photos/id/237/120/120" class="mobile-app-icon" alt="ZArchiver">
+                        <div class="mobile-app-details">
+                            <span class="mobile-app-name">ZArchiver</span>
+                            <span class="mobile-app-sub">ZDevs</span>
+                            <span class="app-rating"><i class="fa-solid fa-star"></i> 9.0</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-download-mobile">Download</a>
+                </div>
+
+                <div class="mobile-list-item">
+                    <div class="mobile-app-left">
+                        <img src="https://picsum.photos/id/1025/120/120" class="mobile-app-icon" alt="Downloader">
+                        <div class="mobile-app-details">
+                            <span class="mobile-app-name">Downloader by AFTVnews</span>
+                            <span class="mobile-app-sub">AFTVnews.com</span>
+                            <span class="app-rating"><i class="fa-solid fa-star"></i> 9.5</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-download-mobile">Download</a>
+                </div>
+            </div>
+
+            <!-- SECTION 3: Communication Apps -->
+            <div class="section-card">
+                <div class="section-header mb-3">
+                    <a href="#" class="section-title">
+                        Communication Apps <i class="fa-solid fa-chevron-right fs-6"></i>
+                    </a>
+                </div>
+
+                <div class="mobile-horizontal-scroll">
+                    <a href="#" class="mobile-horiz-item">
+                        <img src="https://picsum.photos/id/1084/120/120" class="mobile-horiz-icon" alt="Telegram">
+                        <span class="mobile-horiz-title">Telegram</span>
+                    </a>
+                    <a href="#" class="mobile-horiz-item">
+                        <img src="https://picsum.photos/id/1081/120/120" class="mobile-horiz-icon" alt="WhatsApp">
+                        <span class="mobile-horiz-title">WhatsApp Messenger</span>
+                    </a>
+                    <a href="#" class="mobile-horiz-item">
+                        <img src="https://picsum.photos/id/1060/120/120" class="mobile-horiz-icon" alt="Chrome">
+                        <span class="mobile-horiz-title">Google Chrome</span>
+                    </a>
+                    <a href="#" class="mobile-horiz-item">
+                        <img src="https://picsum.photos/id/338/120/120" class="mobile-horiz-icon" alt="Messenger">
+                        <span class="mobile-horiz-title">Messenger</span>
+                    </a>
+                    <a href="#" class="mobile-horiz-item">
+                        <img src="https://picsum.photos/id/1081/120/120" class="mobile-horiz-icon"
+                            alt="WhatsApp Business">
+                        <span class="mobile-horiz-title">WhatsApp Business</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- =========================================================
+             DESKTOP VIEW CONTENT (Shown strictly on screen ≥ 768px)
+        ========================================================= -->
+        <div class="row desktop-only-content">
+
+            <!-- Left Main Column -->
+            <div class="col-lg-8 col-md-12">
+
+                <!-- SECTION 1: Discover -->
+                <div class="section-card">
+                    <div class="section-header">
+                        <a href="#" class="section-title">
+                            Discover <i class="fa-solid fa-chevron-right fs-6"></i>
+                        </a>
+                    </div>
+                    <div class="app-grid-8">
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <img src="https://picsum.photos/id/1062/120/120" class="app-icon" alt="Charlie">
+                            </div>
+                            <div class="app-title">Charlie - Walking Charlie</div>
+                        </a>
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <img src="https://picsum.photos/id/250/120/120" class="app-icon"
+                                    alt="Blackmagic Camera">
+                            </div>
+                            <div class="app-title">Blackmagic Camera</div>
+                        </a>
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <img src="https://picsum.photos/id/1058/120/120" class="app-icon" alt="eFootball">
+                            </div>
+                            <div class="app-title">eFootball 2027</div>
+                        </a>
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <img src="https://picsum.photos/id/1074/120/120" class="app-icon" alt="Among Us">
+                            </div>
+                            <div class="app-title">Among Us</div>
+                        </a>
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <img src="https://picsum.photos/id/237/120/120" class="app-icon" alt="Mimic Party">
+                            </div>
+                            <div class="app-title">Mimic Party</div>
+                        </a>
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <img src="https://picsum.photos/id/1025/120/120" class="app-icon" alt="TikTok Lite">
+                            </div>
+                            <div class="app-title">TikTok Lite - Faster TikTok</div>
+                        </a>
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <img src="https://picsum.photos/id/338/120/120" class="app-icon" alt="TikTok">
+                            </div>
+                            <div class="app-title">TikTok</div>
+                        </a>
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <img src="https://picsum.photos/id/1069/120/120" class="app-icon" alt="Hypic">
+                            </div>
+                            <div class="app-title">Hypic - Photo Editor & AI Art</div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- SECTION 2: Popular Games in Last 24 Hours -->
+                <div class="section-card">
+                    <div class="section-header">
+                        <a href="#" class="section-title">
+                            Popular Games<i class="fa-solid fa-chevron-right fs-6"></i>
+                        </a>
+                    </div>
+                    <div class="app-grid-8">
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <span class="rank-badge">1</span>
+                                <img src="https://picsum.photos/id/1070/120/120" class="app-icon" alt="PUBG MOBILE">
+                            </div>
+                            <div class="app-title">PUBG MOBILE FLASH</div>
+                            <div class="app-rating"><i class="fa-solid fa-star"></i> 9.5</div>
+                        </a>
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <span class="rank-badge">2</span>
+                                <img src="https://picsum.photos/id/1071/120/120" class="app-icon" alt="Free Fire">
+                            </div>
+                            <div class="app-title">Free Fire x NARUTO...</div>
+                            <div class="app-rating"><i class="fa-solid fa-star"></i> 8.6</div>
+                        </a>
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <span class="rank-badge">3</span>
+                                <img src="https://picsum.photos/id/1072/120/120" class="app-icon" alt="EA SPORTS FC">
+                            </div>
+                            <div class="app-title">EA SPORTS FC Soccer Mobile 27</div>
+                            <div class="app-rating"><i class="fa-solid fa-star"></i> 7.9</div>
+                        </a>
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <img src="https://picsum.photos/id/1058/120/120" class="app-icon" alt="eFootball">
+                            </div>
+                            <div class="app-title">eFootball 2027</div>
+                            <div class="app-rating"><i class="fa-solid fa-star"></i> 8.6</div>
+                        </a>
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <img src="https://picsum.photos/id/1073/120/120" class="app-icon" alt="Free Fire MAX">
+                            </div>
+                            <div class="app-title">Free Fire MAX x NARUTO</div>
+                            <div class="app-rating"><i class="fa-solid fa-star"></i> 8.7</div>
+                        </a>
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <img src="https://picsum.photos/id/1075/120/120" class="app-icon" alt="Yalla Ludo">
+                            </div>
+                            <div class="app-title">Yalla Ludo - Ludo&Jackaroo</div>
+                            <div class="app-rating"><i class="fa-solid fa-star"></i> 8.6</div>
+                        </a>
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <img src="https://picsum.photos/id/1076/120/120" class="app-icon" alt="Car Parking">
+                            </div>
+                            <div class="app-title">Car Parking Multiplayer</div>
+                            <div class="app-rating"><i class="fa-solid fa-star"></i> 8.5</div>
+                        </a>
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <img src="https://picsum.photos/id/1077/120/120" class="app-icon" alt="OverPeak">
+                            </div>
+                            <div class="app-title">OverPeak : Action Game</div>
+                            <div class="app-rating"><i class="fa-solid fa-star"></i> 9.4</div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- SECTION 3: Popular Apps in Last 24 Hours -->
+                <div class="section-card">
+                    <div class="section-header">
+                        <a href="#" class="section-title">
+                            Popular Apps <i class="fa-solid fa-chevron-right fs-6"></i>
+                        </a>
+                    </div>
+                    <div class="app-grid-8">
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <span class="rank-badge">1</span>
+                                <img src="https://picsum.photos/id/1080/120/120" class="app-icon" alt="CapCut">
+                            </div>
+                            <div class="app-title">CapCut: Photo & Video Editor</div>
+                            <div class="app-rating"><i class="fa-solid fa-star"></i> 8.2</div>
+                        </a>
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <span class="rank-badge">2</span>
+                                <img src="https://picsum.photos/id/1081/120/120" class="app-icon" alt="WhatsApp">
+                            </div>
+                            <div class="app-title">WhatsApp Messenger</div>
+                            <div class="app-rating"><i class="fa-solid fa-star"></i> 7.9</div>
+                        </a>
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <span class="rank-badge">3</span>
+                                <img src="https://picsum.photos/id/1082/120/120" class="app-icon" alt="TikTok">
+                            </div>
+                            <div class="app-title">TikTok</div>
+                            <div class="app-rating"><i class="fa-solid fa-star"></i> 8.2</div>
+                        </a>
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <img src="https://picsum.photos/id/1083/120/120" class="app-icon" alt="YouTube">
+                            </div>
+                            <div class="app-title">YouTube</div>
+                            <div class="app-rating"><i class="fa-solid fa-star"></i> 7.7</div>
+                        </a>
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <img src="https://picsum.photos/id/1084/120/120" class="app-icon" alt="Telegram">
+                            </div>
+                            <div class="app-title">Telegram</div>
+                            <div class="app-rating"><i class="fa-solid fa-star"></i> 8.5</div>
+                        </a>
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <img src="https://picsum.photos/id/1060/120/120" class="app-icon" alt="Google Chrome">
+                            </div>
+                            <div class="app-title">Google Chrome</div>
+                            <div class="app-rating"><i class="fa-solid fa-star"></i> 8.0</div>
+                        </a>
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <img src="https://picsum.photos/id/1059/120/120" class="app-icon" alt="X">
+                            </div>
+                            <div class="app-title">X</div>
+                            <div class="app-rating"><i class="fa-solid fa-star"></i> 6.4</div>
+                        </a>
+                        <a href="#" class="app-item">
+                            <div class="app-icon-wrapper">
+                                <img src="https://picsum.photos/id/1067/120/120" class="app-icon" alt="Movie Box">
+                                <div class="download-overlay">
+                                    <i class="fa-solid fa-circle-down"></i> Download
+                                </div>
+                            </div>
+                            <div class="app-title">Movie Box</div>
+                            <div class="app-rating"><i class="fa-solid fa-star"></i> 7.4</div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- SECTION 4: Latest Update Games -->
+                <div class="section-card">
+                    <div class="section-header">
+                        <a href="#" class="section-title">
+                            Latest Update Games
+                        </a>
+                    </div>
+                    <div class="update-grid">
+                        <a href="#" class="update-item">
+                            <img src="https://picsum.photos/id/1066/120/120" class="update-icon" alt="SAKURA School">
+                            <div class="update-info">
+                                <div class="update-title">SAKURA School Simulator</div>
+                                <div class="update-version">1.048.11</div>
+                                <div class="update-date">Update Date: Oct 3, 2026</div>
+                            </div>
+                        </a>
+                        <a href="#" class="update-item">
+                            <img src="https://picsum.photos/id/1065/120/120" class="update-icon"
+                                alt="Lamar Idle Vlogger">
+                            <div class="update-info">
+                                <div class="update-title">Lamar - Idle Vlogger</div>
+                                <div class="update-version">240.1.0</div>
+                                <div class="update-date">Update Date: Oct 3, 2026</div>
+                            </div>
+                        </a>
+                        <a href="#" class="update-item">
+                            <img src="https://picsum.photos/id/1063/120/120" class="update-icon" alt="Merge Cooking">
+                            <div class="update-info">
+                                <div class="update-title">Merge Cooking®</div>
+                                <div class="update-version">1.60.0</div>
+                                <div class="update-date">Update Date: Oct 3, 2026</div>
+                            </div>
+                        </a>
+                        <a href="#" class="update-item">
+                            <img src="https://picsum.photos/id/1064/120/120" class="update-icon" alt="Soccer Player">
+                            <div class="update-info">
+                                <div class="update-title">Soccer Player: Legend Path</div>
+                                <div class="update-version">1.12.9</div>
+                                <div class="update-date">Update Date: Oct 3, 2026</div>
+                            </div>
+                        </a>
+                        <a href="#" class="update-item">
+                            <img src="https://picsum.photos/id/1061/120/120" class="update-icon" alt="Rap Star">
+                            <div class="update-info">
+                                <div class="update-title">Rap Star:Idle Clicker</div>
+                                <div class="update-version">310.0.4</div>
+                                <div class="update-date">Update Date: Oct 3, 2026</div>
+                            </div>
+                        </a>
+                        <a href="#" class="update-item">
+                            <img src="https://picsum.photos/id/1057/120/120" class="update-icon" alt="Prime Minister">
+                            <div class="update-info">
+                                <div class="update-title">Prime Minister UK Politics Sim</div>
+                                <div class="update-version">2.5.1</div>
+                                <div class="update-date">Update Date: Oct 3, 2026</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Right Sidebar Column -->
+            <div class="col-lg-4 col-md-12">
+                <div class="section-card">
+                    <div class="section-header">
+                        <a href="#" class="section-title">
+                            Weekly Editor's Recommendation <i class="fa-solid fa-chevron-right fs-6"></i>
+                        </a>
+                    </div>
+
+                    <!-- Hero Recommendation Box -->
+                    <div class="hero-recommend">
+                        <img src="https://picsum.photos/id/1015/600/300" class="hero-banner-img" alt="Aniimo Banner">
+                        <div class="hero-overlay-content">
+                            <img src="https://picsum.photos/id/1027/120/120" class="hero-app-icon" alt="Aniimo Icon">
+                            <div class="hero-details">
+                                <div class="hero-title-row">
+                                    <h6 class="hero-app-title">Aniimo</h6>
+                                    <span class="hero-rating"><i class="fa-solid fa-star"></i> 6.7</span>
+                                </div>
+                                <p class="hero-desc">Aniimo is a creature-catching open-world ac...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sidebar Recommended App List -->
+                    <div class="sidebar-list">
+                        <a href="#" class="sidebar-item">
+                            <img src="https://picsum.photos/id/1040/100/100" class="sidebar-app-icon"
+                                alt="Where Winds Meet">
+                            <div class="sidebar-item-content">
+                                <div class="sidebar-title-row">
+                                    <h6 class="sidebar-app-title">Where Winds Meet</h6>
+                                    <span class="app-rating"><i class="fa-solid fa-star"></i> 9.1</span>
+                                </div>
+                                <p class="sidebar-desc">Where Winds Meet is an open world action R...</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="sidebar-item">
+                            <img src="https://picsum.photos/id/1041/100/100" class="sidebar-app-icon" alt="Grok">
+                            <div class="sidebar-item-content">
+                                <div class="sidebar-title-row">
+                                    <h6 class="sidebar-app-title">Grok</h6>
+                                    <span class="app-rating"><i class="fa-solid fa-star"></i> 6.3</span>
+                                </div>
+                                <p class="sidebar-desc">Grok is a generative AI assistant app that deli...</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="sidebar-item">
+                            <img src="https://picsum.photos/id/1081/100/100" class="sidebar-app-icon" alt="WhatsApp">
+                            <div class="sidebar-item-content">
+                                <div class="sidebar-title-row">
+                                    <h6 class="sidebar-app-title">WhatsApp Messenger</h6>
+                                    <span class="app-rating"><i class="fa-solid fa-star"></i> 7.9</span>
+                                </div>
+                                <p class="sidebar-desc">WhatsApp is a messaging and calling app th...</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="sidebar-item">
+                            <img src="https://picsum.photos/id/1043/100/100" class="sidebar-app-icon"
+                                alt="Legend of YMIR">
+                            <div class="sidebar-item-content">
+                                <div class="sidebar-title-row">
+                                    <h6 class="sidebar-app-title">Legend of YMIR</h6>
+                                    <span class="app-rating"><i class="fa-solid fa-star"></i> 3.4</span>
+                                </div>
+                                <p class="sidebar-desc">Legend of YMIR is an MMORPG game that fol...</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECTION: Category Badges -->
+        <div class="section-card">
+            <div class="section-header mb-3">
+                <h5 class="section-title fw-bold">Category</h5>
+            </div>
+            <div class="d-flex flex-wrap gap-2 align-items-center">
+                
+                <a href="art & design.html" class="category-badge">
+                    <img src="https://image.winudf.com/v2/image1/Y29tLnZibGFzdC5mbGlwYWNsaXBfaWNvbl8xNzgwOTU3NjEzXzA4Mw/icon.webp?w=48&fakeurl=1&type=.webp" class="badge-icon" alt="Action">
+                    <span>Art & Design</span>
+                </a>
+                
+                <a  onclick="openCategory('Communication')" class="category-badge">
+                    <img src="https://image.winudf.com/v2/image1/b3JnLnRlbGVncmFtLm1lc3Nlbmdlcl9pY29uXzE3ODA5OTQ1NTlfMDM0/icon.webp?w=48&fakeurl=1&type=.webp" class="badge-icon" alt="Adventure">
+                    <span>Communication</span>
+                </a>
+            
+                <a href="#" class="category-badge">
+                    <img src="https://image.winudf.com/v2/image1/Y29tLnRpbmRlcl9pY29uXzE3ODE1NjA5MzJfMDQx/icon.webp?w=48&fakeurl=1&type=.webp" class="badge-icon" alt="Board">
+                    <span>Dating</span>
+                </a>
+                
+                <a href="#" class="category-badge">
+                    <img src="https://image.winudf.com/v2/user/admin/YWRtaW5fYnVmZmJ1ZmYucG5nXzE3MjEyMDc0NjgyODM/icon.webp?w=48&fakeurl=1&type=.webp" class="badge-icon" alt="Card">
+                    <span>Entertainment</span>
+                </a>
+                
+                <a href="#" class="category-badge">
+                    <img src="https://image.winudf.com/v2/image1/aWQuZGFuYV9pY29uXzE3ODEwNTk4NDVfMDI0/icon.webp?w=48&fakeurl=1&type=.webp" class="badge-icon" alt="Finance">
+                    <span>Finance</span>
+                </a>
+                
+                <a href="#" class="category-badge">
+                    <img src="https://image.winudf.com/v2/image1/Y29tLmtvcGlrZW5hbmdhbl9pY29uXzE3ODEyNzQyNTlfMDYz/icon.webp?w=48&fakeurl=1&type=.webp" class="badge-icon" alt="Casual">
+                    <span>Food & Drink</span>
+                </a>
+                
+                <a href="#" class="category-badge">
+                    <img src="https://image.winudf.com/v2/image1/dHIuZ292LnNhZ2xpay5NSFJTTU9CSUxfaWNvbl8xNzgxNzAyODAxXzA0MA/icon.webp?w=48&fakeurl=1&type=.webp" class="badge-icon" alt="Educational">
+                    <span>Medical</span>
+                </a>
+                
+                <a href="#" class="category-badge">
+                    <img src="https://image.winudf.com/v2/image1/Y29tLnNwb3RpZnkubXVzaWNfaWNvbl8xNzgxNTQ0OTA0XzAzMg/icon.webp?w=140&fakeurl=1&type=.webp" class="badge-icon" alt="Music">
+                    <span>Music & Audio</span>
+                </a>
+                
+                <a href="#" class="category-badge">
+                    <img src="https://image.winudf.com/v2/image1/Y29tLmJsYWNrbWFnaWNkZXNpZ24uYW5kcm9pZC5ibGFja21hZ2ljY2FtX2ljb25fMTc4NDE4MDIxNF8wODg/icon.webp?w=48&fakeurl=1&type=.webp" class="badge-icon" alt="Racing">
+                    <span>Photography</span>
+                </a>
+
+                <a href="#" class="category-badge">
+                    <img src="https://image.winudf.com/v2/image1/Y29tLmdvb2dsZS5hbmRyb2lkLmFwcHMubWFwc19pY29uXzE3ODA5Mjc5MjVfMDM3/icon.webp?w=48&fakeurl=1&type=.webp" class="badge-icon" alt="Family">
+                    <span>Travel & Local</span>
+                </a>
+
+                <a href="#" class="category-badge">
+                    <img src="https://image.winudf.com/v2/image1/Y29tLmxlbW9uLmx2b3ZlcnNlYXNfaWNvbl8xNzY4MzIwMDQyXzA2Ng/icon.webp?w=48&fakeurl=1&type=.webp" class="badge-icon" alt="Family">
+                    <span>Video Player & Editors</span>
+                </a>
+
+                <a href="#" class="category-badge">
+                    <img src="https://image.winudf.com/v2/image1/Y29tLmF2aXRvLmFuZHJvaWRfaWNvbl8xNjc0MjE1ODczXzAzMw/icon.webp?w=48&fakeurl=1&type=.webp" class="badge-icon" alt="Family">
+                    <span>Shopping</span>
+                </a>
+                
+                <a href="#" class="category-badge">
+                    <img src="https://image.winudf.com/v2/image1/YW11c2V3b3Jrcy50aGVybW9tZXRlcl9pY29uXzE3NzAxNjUxNzZfMDAy/icon.webp?w=48&fakeurl=1&type=.webp" class="badge-icon" alt="Family">
+                    <span>Weather</span>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER COMPONENT -->
+    <footer class="site-footer">
+        <div class="container-fluid px-lg-5">
+            <div class="row">
+                <!-- Column 1: Logo & Description -->
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <a href="#" class="footer-logo">
+                        <i class="fa-solid fa-play text-success"></i>
+                        <span>APKPure</span>
+                    </a>
+                    <p class="footer-desc">
+                        APKPure - A multi-platform app store primarily focused on Android, providing extensive
+                        app-related content. Discover the app you want easier, faster, and safer, with quick and
+                        efficient downloads and installations.
+                    </p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Telegram"><i class="fa-paper-plane"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter X"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <!-- Column 2: Service -->
+                <div class="col-lg-2 col-md-4 col-6 mb-4">
+                    <h6 class="footer-heading">Service</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">APK Install</a></li>
+                        <li><a href="#">APK Signature Verification</a></li>
+                        <li><a href="#">APK Download Service</a></li>
+                        <li><a href="#">APKPure Premium <span class="badge-new">NEW</span></a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Developers -->
+                <div class="col-lg-3 col-md-4 col-6 mb-4">
+                    <h6 class="footer-heading">Developers</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">Developer Console</a></li>
+                        <li><a href="#">APK Website Builder</a></li>
+                        <li><a href="#">Submit APK</a></li>
+                        <li><a href="#">Traffic Monetization with APKPure</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Company -->
+                <div class="col-lg-3 col-md-4 col-12 mb-4">
+                    <h6 class="footer-heading">Company</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Business Cooperation</a></li>
+                        <li><a href="#">Support Center</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <!-- Bootstrap 5 JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
